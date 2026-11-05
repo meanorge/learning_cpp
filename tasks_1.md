@@ -73,11 +73,11 @@ int main() {
     cin >> a>>b>>c;
     if (a>=b) {
         if (a>=c) {cout << a;}
-        else if (a<=c) {cout << c;}
+        else {cout << c;}
     }
     else {
         if (b>=c) {cout << b;}
-        else if (c >= b) {cout << c;}
+        else {cout << c;}
     }
     return 0;
 }
